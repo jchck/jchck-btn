@@ -1,4 +1,4 @@
-.btn { display: inline-block; font-weight: normal; text-align: center; vertical-align: middle; cursor: pointer; text-decoration: none; padding: 0.5rem 1rem; border-radius: 4px; border: 3px solid transparent; margin: 0; }
+.btn { display: inline-block; font-size: 14px; font-weight: normal; line-height: 1.5; text-align: center; vertical-align: middle; cursor: pointer; text-decoration: none; padding: 0.5rem 1rem; border-radius: 4px; border: 3px solid transparent; margin: 0; white-space: nowrap; }
 
 .btn-default { color: #333; background-color: #fff; border-color: #ccc; }
 
