@@ -1,0 +1,21 @@
+$btn-font-weight: normal !default;
+$btn-padding-y: .5rem;
+$btn-padding-x: 1rem;
+$btn-border-radius-base: 4px !default; 
+
+.btn{
+	display: inline-block;
+	font-weight: $btn-font-weight;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	text-decoration: none;
+	padding: $btn-padding-y $btn-padding-x;
+	border-radius: $btn-border-radius-base;
+	margin: 0;
+
+	&:hover,
+	&:focus{
+		
+	}
+}
