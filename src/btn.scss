@@ -4,7 +4,9 @@ $btn-padding-x: 1rem;
 $btn-border-radius-base: 4px !default;
 $btn-border-width: 3px !default;
 
-@import "btn-default"
+$btn-default-color: #333 !default;
+$btn-default-bg: #fff !default;
+$btn-default-border: #ccc !default;
 
 .btn{
 	display: inline-block;
@@ -18,3 +20,5 @@ $btn-border-width: 3px !default;
 	border: $btn-border-width solid transparent;
 	margin: 0;
 }
+
+@import "btn-default";
