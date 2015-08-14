@@ -1,0 +1,14 @@
+@mixin ($color, $background, $border){
+	color: $color;
+	background-color: $background;
+	border-color: $border;
+
+	&:hover{
+		background-color: darken($background, 10%);
+		border-color: darken($border, 12%);
+	}
+
+	&:focus{
+		border-color: darken($border, 18%);
+	}
+}
