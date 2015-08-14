@@ -25,6 +25,10 @@ $btn-default-border: #ccc !default;
 	border: $btn-border-width solid transparent;
 	margin: 0;
 	white-space: nowrap;
+
+	&:focus{
+		outline: none;
+	}
 }
 
 @import "btn-default";
