@@ -1,7 +1,10 @@
 $btn-font-weight: normal !default;
 $btn-padding-y: .5rem;
 $btn-padding-x: 1rem;
-$btn-border-radius-base: 4px !default; 
+$btn-border-radius-base: 4px !default;
+$btn-border-width: 3px !default;
+
+@import "btn-default"
 
 .btn{
 	display: inline-block;
@@ -12,10 +15,6 @@ $btn-border-radius-base: 4px !default;
 	text-decoration: none;
 	padding: $btn-padding-y $btn-padding-x;
 	border-radius: $btn-border-radius-base;
+	border: $btn-border-width solid transparent;
 	margin: 0;
-
-	&:hover,
-	&:focus{
-		
-	}
 }
