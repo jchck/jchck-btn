@@ -1,0 +1,23 @@
+{
+  "name": "jchck-btn",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jchck/jchck-btn",
+  "authors": [
+    "jchck <hey@justinchick.com>"
+  ],
+  "description": "Button css module",
+  "main": "./src/btn.scss",
+  "keywords": [
+    "css",
+    "oocss",
+    "jchck"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
