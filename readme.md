@@ -1,5 +1,5 @@
 # jchck btn
-A base typography css module writen in sass, makes use of [Bootstrap's](http://getbootstrap.com) default variables.
+A button css module writen in sass, makes use of [Bootstrap's](http://getbootstrap.com) default variables.
 
 ## install via bower
 ```
