@@ -12,7 +12,3 @@
 		border-color: darken($border, 18%);
 	}
 }
-
-.btn-xmas{
-	@include btn-color(#fff, red, green);
-}
