@@ -35,5 +35,10 @@ $btn-default-border: #ccc !default;
 	}
 }
 
+::-moz-focus-inner{
+	border: 0;
+	padding: 0;
+}
+
 @import "btn-default";
 @import "btn-mixin";
