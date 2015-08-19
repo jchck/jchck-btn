@@ -29,6 +29,10 @@ $btn-default-border: #ccc !default;
 	&:focus{
 		outline: none;
 	}
+
+	&:hover{
+		text-decoration: none;
+	}
 }
 
 @import "btn-default";
