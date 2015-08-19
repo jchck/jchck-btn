@@ -30,7 +30,8 @@ $btn-default-border: #ccc !default;
 		outline: none;
 	}
 
-	&:hover{
+	&:hover,
+	&:active{
 		text-decoration: none;
 	}
 }
