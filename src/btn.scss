@@ -1,5 +1,6 @@
 $btn-font-weight: normal !default;
-$font-size-base: 14px !default; 
+$font-size-base: 14px !default;
+$btn-font-size-base: $font-size-base !default; 
 $btn-padding-y: .5rem;
 $btn-padding-x: 1rem;
 $btn-border-radius-base: 4px !default;
@@ -13,7 +14,7 @@ $btn-default-border: #ccc !default;
 
 .btn{
 	display: inline-block;
-	font-size: $font-size-base;
+	font-size: $btn-font-size-base;
 	font-weight: $btn-font-weight;
 	line-height: $line-height-base;
 	text-align: center;

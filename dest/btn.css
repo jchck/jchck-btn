@@ -2,7 +2,7 @@
 
 .btn:focus { outline: none; }
 
-.btn:hover { text-decoration: none; }
+.btn:hover, .btn:active { text-decoration: none; }
 
 ::-moz-focus-inner { border: 0; padding: 0; }
 
