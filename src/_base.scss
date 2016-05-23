@@ -1,0 +1,29 @@
+.btn{
+	display: inline-block;
+	font-size: $btn-font-size-base;
+	font-weight: $btn-font-weight;
+	line-height: $line-height-base;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	text-decoration: none;
+	padding: $btn-padding-y $btn-padding-x;
+	border-radius: $btn-border-radius-base;
+	border: $btn-border-width solid transparent;
+	margin: 0;
+	white-space: nowrap;
+
+	&:focus{
+		outline: none;
+	}
+
+	&:hover,
+	&:active{
+		text-decoration: none;
+	}
+}
+
+::-moz-focus-inner{
+	border: 0;
+	padding: 0;
+}
