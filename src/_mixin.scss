@@ -10,5 +10,6 @@
 
 	&:focus{
 		border-color: darken($border, 18%);
+		outline: none;
 	}
 }
