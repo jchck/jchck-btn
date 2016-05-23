@@ -12,6 +12,6 @@ $btn-default-color: #333 !default;
 $btn-default-bg: #fff !default;
 $btn-default-border: #ccc !default;
 
+@import "_mixin";
 @import "_base";
 @import "_default";
-@import "_mixin";
